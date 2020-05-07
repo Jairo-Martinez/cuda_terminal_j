@@ -1,14 +1,14 @@
 [info]
-title=Terminal
-desc=Gives "Terminal" panel in the bottom panel of CudaText
+title=Terminal J
+desc=Fork. Gives "Terminal" panel in the bottom panel of CudaText
 type=cudatext-plugin
-subdir=cuda_terminal
+subdir=cuda_terminal_j
 homepage=https://github.com/Artem3213212/cuda_terminal
 api=1.0.234
 
 [item1]
 section=events
-events=on_exit
+events=on_exit,on_start,on_state
 
 [item2]
 section=commands
